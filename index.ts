@@ -39,11 +39,11 @@ console.log('-------------------------------------');
 
 console.log('-------------------------------------');
 
-from([0, 1, 2, 3, 4, 5])
-  .pipe(mergeMap((v: any) => of(v).pipe(delay(random(v)))))
-  .subscribe((value) => {
-    console.log('merge map', value);
-  });
+// from([0, 1, 2, 3, 4, 5])
+//   .pipe(mergeMap((v: any) => of(v).pipe(delay(random(v)))))
+//   .subscribe((value) => {
+//     console.log('merge map', value);
+//   });
 
 console.log('-------------------------------------');
 
